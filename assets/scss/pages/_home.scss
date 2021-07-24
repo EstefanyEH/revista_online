@@ -1,0 +1,152 @@
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+.navbar__logo{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+.contenido {
+    width: 976px;
+    margin: 0 auto;
+}
+
+/*.listado-noticias {
+    //width: 800px;
+    //float: left;
+}*/
+
+.noticia {
+    //width: 17rem;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cuerpo img {
+    width:100%;
+    height: 400px;
+}
+
+.cuerpo p {
+    padding: 5px;
+}
+
+.listado-izquierdo {
+    // width: 220px;
+    //float: right;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 0;
+    //padding-left: 100px;
+}
+
+.listado__header {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    border-bottom: 1px solid gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 2px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.noticias-destacadas img {
+    width: 220px;
+    height: 200px;
+}
+
+
+.newsletter h2 {
+    font-size: 24px
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}
+.newsletter {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f2f4f5;
+}
+.footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width:$bp-md){
+    .nosotros a{
+        display: none;
+    }
+
+    .listado-izquierdo{
+        display: none;
+    }
+
+}
